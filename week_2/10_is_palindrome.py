@@ -10,6 +10,7 @@ def is_palindrome(string):
     return True
 
 
+# recursive 이용
 def is_palindrome(string):
     if string[0] != string[-1]:
         return False
