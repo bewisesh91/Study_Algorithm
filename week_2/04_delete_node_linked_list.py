@@ -13,6 +13,8 @@ class Node:
 # --> linked_list.head, Node(3)
 # --> linked_list.head.data, 3 출력
 # --> linked_list.head.next, None 출력
+
+
 class LinkedList:
     def __init__(self, value):
         self.head = Node(value)
