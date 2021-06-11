@@ -1,4 +1,4 @@
-def sum_digits(n):
+def sum_digits(n) :
     if n < 10 :
         return n
     else :
@@ -9,3 +9,5 @@ def sum_digits(n):
 print(sum_digits(10))
 print(sum_digits(11))
 print(sum_digits(12))
+
+
